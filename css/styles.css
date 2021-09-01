@@ -54,6 +54,10 @@ body {
   margin-right: 60px;
 }
 
+.menu-item a {
+  text-decoration: none;
+}
+
 .menu-item:last-child {
   margin-right: 0px;
 }
