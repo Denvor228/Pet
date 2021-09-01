@@ -1,0 +1,705 @@
+@media (max-width: 1600px) {
+    .container {
+        width: 940px;
+    }
+
+    .hero {
+        height: 504px;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .circle {
+        left: calc(50% - 367px/2 + 139.5px);
+        top: 69px;
+        width: 367px;
+        height: 367px;
+    }
+
+    .head-title {
+        width: 400.25px;
+        left: calc(50% - 400.25px/2 + 214.12px);
+        top: 70px;
+
+        font-size: 85px;
+        line-height: 75%;
+    }
+
+    .head-button {
+        top: 483px;
+        left: calc(50% - 298px/2 + 214px);
+    }
+
+    .menu-item {
+        margin-right: 45px;
+    }
+
+    .flowers {
+        visibility: hidden;
+    }
+
+    .bamboo-cap {
+        width: 454px;
+    }
+
+    .animal-pet {
+        background-size:cover;
+        background-position: center;
+    }
+
+    .pet-eat-herbivores{
+        left: 240px;
+    }
+
+    .pet-eat-carnivorous{
+        left: 235px;
+    }
+
+    .pet-info:nth-child(-n+3) {
+        margin-bottom: 92px;
+    }
+
+    .left {
+        left: 34%;
+    }
+
+    .right {
+        right: 34%;
+    }
+
+    .flower {
+        background-image: url(../img/strelitzia_lower.png);
+        width: 241px;
+        height: 180px;
+    }
+
+    .palm {
+        background-image: url(../img/palm_foto_lower.png);
+        width: 194px;
+        height: 203px;
+    }
+
+    .border-pink {
+        padding: 30px 48px 50px 49px;
+        position: relative;
+    }
+
+    .arrow1 {
+        position: absolute;
+        background-image: url(../img/Arrow_bold.png);
+        width: 69px;
+        height: 35.08px;
+        bottom: 310px;
+        right: 590px;
+    }
+
+    .arrow2 {
+        position: absolute;
+        background-image: url(../img/Arrow_bold.png);
+        width: 69px;
+        height: 35.08px;
+        bottom: 310px;
+        right: 280px;
+    }
+
+    .pick-and-feed-section{
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .testimonials {
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    .comment:last-child {
+        display: none;
+    }
+
+    .comment {
+        width: 294px;
+        padding-bottom: 40px;
+    }
+
+    .scroll {
+        width: 390px;
+        height: 8px;
+    }
+
+    .scroller {
+        width: 75px;
+        height: 6px;
+    }
+
+    .leav {
+        background-image: url(../img/leav_foto_lower.png);
+        width: 195px;
+        height: 231px;
+        top: 590px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menu-list {
+        display: none;
+    }
+
+    .burger-menu {
+        background-image: url(../img/burger_menu.png);
+        width: 18px;
+        height: 10px;
+    }
+
+    .header {
+        height: 34px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .hero {
+        height: 373px;
+        background-image: url(../img/Giant_Panda_lower.png);
+        background-size: cover;
+    }
+
+    .head-title{
+        font-size: 54.2894px;
+        line-height: 75%;
+
+        left: calc(50% - 255.64px/2 + 150.76px);
+        top: 40px;
+        width: 255.64px;
+    }
+
+    .logo-header {
+        background-image: url(../img/logo_lower.png);
+        width: 46.86px;
+        height: 29.03px;
+        margin: 0%;
+    }
+
+    .circle {
+        width: 237.6px;
+        height: 237.6px;
+        left: calc(50% - 237.6px/2 + 100.44px);
+        top: 44.23px;
+    }
+
+    .head-button {
+        left: calc(50% - 298px/2 - 151px);
+        top: 279px;
+    }
+
+    .bamboo-cap {
+        display: none;
+    }
+
+    .how-it-works-section {
+        padding-top: 60px;
+    }
+
+    .backstage {
+        padding-bottom: 0px;
+        margin-bottom: 80px;
+    }
+
+    .flowers {
+        visibility: visible;
+        background-image: url(../img/flower_foto1_lower.png);
+        width: 132px;
+        height: 476px;
+    }
+
+    .pet-info:nth-child(-n+2) {
+        display: none;
+    }
+
+    .pet-info {
+        width: 285px;
+        height: 332px;
+        border: 1px solid #fe9013;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .pet-info {
+        margin-right: 25px;
+    }
+
+    .pet-info:nth-child(4){
+        margin-right: 0px;
+    }
+
+    .pet-info:nth-child(6){
+        margin-right: 0px;
+    }
+
+    .animal-pet {
+        background-size: cover;
+        width: 283px;
+        height: 285.24px;
+        border-radius: 5px;
+    }
+
+    .left{
+        top: 39%;
+    }
+
+    .right {
+        top: 39%;
+    }
+
+    .pet-info-box {
+        padding-top: 6px;
+
+    }
+
+    .pick-and-feed-section {
+        position: relative;
+    }
+
+    .testimonials {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .border-pink {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .arrow1 {
+        position: absolute;
+        background-image: url(../img/arrow_down.png);
+        width: 66px;
+        height: 90px;
+        bottom: 344px;
+        right: 385px;
+        transform: rotate(-85.38deg);
+    }
+
+    .arrow2 {
+        position: absolute;
+        background-image: url(../img/arrow_down.png);
+        width: 66px;
+        height: 90px;
+        bottom: 344px;
+        right: 169px;
+        transform: rotate(-85.38deg);
+    }
+
+    .comments {
+        flex-wrap: wrap;
+    }
+
+    .comment {
+        width: 100%;
+        height: 109px;
+        margin-bottom: 15px;
+    }
+
+    .comment:nth-last-child(2) {
+        margin-bottom: 0px;
+    }
+
+    .text-testimonials {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 34px;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    .leav {
+        top: 565px;
+        background-image: url(../img/leav_foto_lowest.png);
+        width: 110px;
+        height: 134px;
+    }
+
+    .subscribe-form {
+        visibility: hidden;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .social-list {
+        position: absolute;
+        bottom: 280px;
+        right: -20px;
+        width: 30px;
+        top: -175px;
+    }
+
+    .social-link {
+        margin-bottom: 20px;
+    }
+
+
+
+    .footer-bottom {
+        position: relative;
+    }
+
+    .social-image {
+        right: 35px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .logo {
+        margin-bottom: 32px;
+    }
+
+    .footer {
+        padding-top: 13px;
+    }
+
+    .links {
+        padding-top: 28px;
+    }
+
+    .authors {
+        padding-top: 0px;
+    }
+
+    .donate {
+        margin-bottom: 65px;
+    }
+
+    .link {
+        margin-right: 35px;
+    }
+
+    .instruction-image {
+        margin-right: 40px;
+    }
+
+    .instruction-image:last-child {
+        margin-right: 0px;
+    }
+
+    .Twitter {
+        top: 0px;
+    }
+
+    .Instagram {
+        top: 46px;
+    }
+
+    .YouTube {
+        top: 92px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 300px;
+    }
+
+    .hero {
+        background-image: url(../img/Giant_Panda_mini.png);
+        height: 186.96px;
+    }
+
+    .head-button{
+        position: static;
+        margin-top: 207px;
+        margin-bottom: 30px;
+    }
+
+    .how-it-works-section {
+        padding-top: 105px;
+    }
+
+    .circle {
+        width: 119.09px;
+        height: 119.09px;
+        left: calc(50% - 119.09px/2 + 62.45px);
+        top: 56px;
+    }
+
+    .head-title {
+        left: calc(50% - 128.13px/2 + 85.67px);
+        top: 55px;
+        font-size: 28px;
+        line-height: 75%;
+        width: 128.13px;
+    }
+
+    .header-backstage {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .text-1 {
+        margin-bottom: 20px;
+    }
+
+    .how-it-works-section {
+        padding-bottom: 60px;
+    }
+
+    .header-how-it-works {
+        margin-bottom: 10px;
+    }
+
+    .backstage {
+        margin-bottom: 40px;
+    }
+
+    .flowers {
+        background-image: url(../img/flower_foto1_mini.png);
+        width: 35px;
+        height: 217px;
+    }
+
+    .button-animals {
+        visibility: hidden;
+    }
+
+    .pet-info:nth-child(3) {
+        margin-bottom: 20px;
+    }
+
+    .pet-info {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .pet-info:last-child {
+        margin-bottom: 0px;
+    }
+
+    .choose {
+        margin-top: 30px;
+    }
+
+    .palm {
+        background-image: url(../img/palm_foto_mini.png);
+        width: 58px;
+        height: 70px;
+    }
+
+    .flower {
+        background-image: url(../img/strelitzia_1_mini.png);
+        width: 66px;
+        height: 62px;
+    }
+
+    .border-pink {
+        position: relative;
+    }
+
+    .arrow1 {
+        position: absolute;
+        background-image: url(../img/arrow_down.png);
+        width: 66px;
+        height: 90px;
+        bottom: 612px;
+        right: 38px;
+        transform: rotate(0deg);
+    }
+
+    .arrow2 {
+        position: absolute;
+        background-image: url(../img/arrow_down.png);
+        width: 66px;
+        height: 90px;
+        bottom: 362px;
+        right: 38px;
+        transform: rotate(0deg);
+    }
+
+    .instruction-images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text-pick-and-feed {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .header4-pick-and-feed {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .header2-pick-and-feed {
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+
+    .header3-pick-and-feed {
+        font-size: 18px;
+        line-height: 120%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header3-how-it-works {
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    .instruction-image {
+        margin-bottom: 10px;
+    }
+
+    .instruction-image-list {
+        margin-bottom: 42px;
+    }
+
+    .instruction-image-list:last-child {
+        margin-bottom: 39px;
+    }
+
+    .border-pink {
+        padding-bottom: 40px;
+    }
+
+    .pick-and-feed-section {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .testimonials {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+    .leave-feedback {
+        margin-top: 0px;
+    }
+
+    .header-testimonials {
+        margin-bottom: 20px;
+    }
+
+    .leav {
+        background-image: url(../img/leav_foto_mini.png);
+        width: 51px;
+        height: 65px;
+        top: 526px;
+    }
+
+    .footer {
+        padding-bottom: 18px;
+    }
+
+    .logo-top {
+        position: relative;
+    }
+
+    .logo {
+        background-image: url(../img/logo_mini.png);
+        width: 128px;
+        height: 23px;
+        background-size: contain;
+        display: inline-block;
+        margin-bottom: 96px;
+    }
+
+    .bamboo {
+        position: absolute;
+        background-image: url(../img/bamboo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.03px;
+        height: 20.98px;
+        left: 74px;
+        top: -5px;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subscribe-form {
+        visibility: visible;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap-reverse;
+    }
+
+    .link {
+        margin-right: 33px;
+    }
+
+    .link:last-child {
+        margin-right: 0px;
+    }
+
+    .authors{
+        padding-left: 90px;
+    }
+
+    .authors-text {
+        width: 216px;
+        font-size: 15px;
+        line-height: 120%;
+    }
+
+    .subscribe-form {
+        margin-bottom: 162px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;    
+    }
+
+    .subscribe-form__button {
+        margin: 0;
+    }
+
+    .donate {
+        position: absolute;
+        top: 300px;
+        left: -85px;
+    }
+
+    .subscribe-form__input {
+        margin-bottom: 10px;
+    }
+
+    .social-image {
+        right: 245px;
+        top: -190px;
+    }
+
+    .Twitter {
+        right: 190px;
+        top: -210px;
+    }
+
+    .Instagram {
+        right: 135px;
+        top: -210px;
+    }
+
+    .YouTube {
+        right: 80px;
+        top: -210px;
+    }
+
+}
